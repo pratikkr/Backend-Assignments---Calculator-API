@@ -140,7 +140,6 @@ app.post("/divide", (req, res) => {
   };
   res.send(response);
 });
-
 app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 module.exports = app;
